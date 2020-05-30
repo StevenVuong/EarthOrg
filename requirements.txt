@@ -2,3 +2,5 @@ jupyterlab
 pandas
 seaborn
 matplotlib
+numpy
+wordcloud
