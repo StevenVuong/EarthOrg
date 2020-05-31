@@ -1,4 +1,4 @@
-# Manmade Environmental Disaster Discovery and Visualisation
+# Environmental Disaster Discovery and Visualisation
 Visualising and uncovering the hidden data behind manmade environmental
 disasters.
 
