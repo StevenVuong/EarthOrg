@@ -8,6 +8,7 @@ config = configparser.ConfigParser()
 config.read('./config.ini')
 
 processed_oilspills_csvpath = config['interactive_map']['processed_oilspills_csvpath']
+max_description_charlength = config.getint('interactive_map', 'max_description_charlength')
 
 def main():
     
@@ -38,7 +39,7 @@ def main():
     # TODO: Separation by number of brackets would be more ideal
     # hotfix for now; limit description key tokens to 500 chars
     oilspills['description_key_tokens'] = [
-        string[:500] for string in oilspills['description_key_tokens'].values
+        string[:max_description_charlength] for string in oilspills['description_key_tokens'].values
         ]
 
     # TODO: Figure out string formatting for hover box
