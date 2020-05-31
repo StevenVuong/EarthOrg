@@ -1,5 +1,6 @@
-# Oilspill_Dashboard
-Building a dashboard to monitor oil spills across the US
+# Manmade Environmental Disaster Discovery and Visualisation
+Visualising and uncovering the hidden data behind manmade environmental
+disasters.
 
 Data:
 -  US_oilspills.csv: csv with information about US oilspills with columns:
