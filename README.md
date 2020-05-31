@@ -15,6 +15,8 @@ Data:
     -  max_ptl_release_gallons 
     -  field_10 to field_25
 
+-  US State boundaries from: http://www.arcgis.com/home/item.html?id=f7f805eb65eb4ab787a0a3e1116ca7e5
+
 ## Quickstart:
 
 1)  Create Virtual Environment and Install Libraries (not necessary but recommended)
@@ -36,11 +38,12 @@ Data:
     jupyter lab .
     ```
     Then go into `./notebooks` and have a look at the notebooks available.
-    -  EDA (Exploratory Data Analysis): Creates static visualisations of the
+    -  `EDA.ipynb` (Exploratory Data Analysis): Creates static visualisations of the
     raw data and engineers additional features. Examples can be seen in the
     `./screenshots/EDA` directory. In the notebook we have also listed out 
     findings from the data and our approach in processing the raw data within
     markdown cells.
+    -  Answers for the required exercises/tasks can be found in `Exercises.ipynb`.
 
 
 3)  Run the interactive dashboard locally:
