@@ -53,6 +53,25 @@ Data:
     Supplementary Video: https://youtu.be/vnOs3hBXjDY (recommend watch on high 
     quality)
 
+### Future Works:
+An idea I had going forward with this data is to create a metric which assesses 
+the environmental health of a certain region which decreases following a big
+incident and we are able to quantify the degree of damage (example: an oilspill
+might be more catastrophic than a whale carcass on a beach) and will slowly degrade
+over time.
+
+With this, not only can one provide analytics of how a region has been impacted,
+but the ecosystems around it and then use this past data to inform current ongoings
+in terms of the broader impact of a regio, taking into account more factors to 
+help decision makers understand better the outcomes of some of their potential 
+options.
+
+Another small technical detail could be to include some clustering techniques
+(unsupervised learning) to see if there are any hidden patterns within the data.
+This is as well as some NLP (natural language processing) techniques that
+could be done on the description or commodity sections to gain more insight. And 
+of course, as always, more data is always welcome.
+
 
 ## Final Words:
 This was actually a really fun task and I can highly appreciate the value of 
