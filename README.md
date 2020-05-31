@@ -17,6 +17,9 @@ Data:
 
 -  US State boundaries from: http://www.arcgis.com/home/item.html?id=f7f805eb65eb4ab787a0a3e1116ca7e5
 
+## Initial Requirements:
+-  Python 3.6 or above
+
 ## Quickstart:
 
 1)  Create Virtual Environment and Install Libraries (not necessary but recommended)
