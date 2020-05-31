@@ -5,4 +5,7 @@ matplotlib
 numpy
 wordcloud
 spacy
+geopandas
+descartes
 plotly
+Shapely
