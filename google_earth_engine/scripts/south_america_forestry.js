@@ -1,4 +1,4 @@
-// Ex: https://earthenginepartners.appspot.com/science-2013-global-forestv
+// Ex: https://earthenginepartners.appspot.com/science-2013-global-forest
 // https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_FNF
 ar dataset = ee.ImageCollection('JAXA/ALOS/PALSAR/YEARLY/FNF')
                   .filterDate('2007-01-01', '2017-12-31')
